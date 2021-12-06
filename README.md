@@ -1,4 +1,6 @@
-# Cold Start to Improve Market Thickness Simulation
+# Simulation System for Cold Start in Advertising
+
+We provide the Python code of the simulation system built in [Ye et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786). See Appendix D.1 of the paper for details of the simulation system.
 
 
 ## Table of contents
@@ -6,27 +8,29 @@
 * [Files](#files)
 * [Simulation Details](#simulation-details)
 
-## General Info
-This project contains the simulation code (jupyter notebook) and data of the paper - cold start to improve market thickness.
-The goal of this released code and data is helping scholars get
-deeper understanding on the online advertising systems, implementation
-details of our experiments, and how two-side experiment can decrease the
-estimation bias.
 
+<a id='general-info'></a>
+## General Info 
+This project contains the code (as Jupyter Notebooks) and data inputs of the simulation system of the paper [Ye et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786). The goal of releasing the code and data is to help interested scholars get deeper understanding on the operational details of the online advertising system, and the implementation of the single- and two-sided experiments studied in [Ye et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786).
 
+<a id='files'></a>
 ## Files
-* cold_start_simulation.ipynb: main simulation code 
-* ctr_bid_data.npy: CTR and bid data
-* simulation_output: outcome of the simulation
-	
+* [cold_start_simulation.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/cold_start_simulation.ipynb): The main simulation code. 
+* [ctr_bid_data.npy](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/ctr_bid_data.npy): The sampled data of click-through rates (CTR) and bid prices, 300 observations in total.
+* [simulation_output](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/tree/main/simulation_output): The simulation results.
+
+<a id='simulation-details'></a>	
 ## Simulation Details
-To run this project, please install Python 3. The jupyter notebook contains four parts:
-* Part I: two parallel simulations using baseline ad delivery algorithm (PID) and ou proposed algorithm SBL-DMD
-* Part II: Ad-side and UV-side field experiments
-* Part III: Two-side field experiment
-* Part IV: Replications for hypothesis testing
+
+To run the code of this project, please install [Python 3](https://www.python.org/downloads/) and [Jupyter Notebook](https://jupyter.org/install.html). Please refer to Appendix D.1 of [Ye et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786) for more information about the simulation system. [The code](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/cold_start_simulation.ipynb) contains the following four modules:
+
+* Module I: two parallel simulations using baseline ad delivery algorithm (PID) and ou proposed algorithm SBL-DMD
+* Module II: Ad-side and UV-side field experiments
+* Module III: Two-side field experiment
+* Module IV: Replications for hypothesis testing
 
 To evalute the performance of estimators, we report the following two metrics in experiments:
+
 * Cold start success rate
 * Revenue
 
@@ -42,4 +46,6 @@ One can also directly change hyperparameters in the code including:
 * Sampling rates of all experiments
 * For other more fundamental settings including auction mechanisms, CTR predicting models, other cold start algorithms and experiment designs, and long-term behavior of advertisers, one needs to change codes correspondingly 
 
+## Reference
+Ye, Zikun and Zhang, Dennis and Zhang, Heng and Zhang, Renyu and Chen, Xin and Xu, Zhiwei. 2021. Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments. Available at SSRN: https://ssrn.com/abstract=3702786 or http://dx.doi.org/10.2139/ssrn.3702786.
 
