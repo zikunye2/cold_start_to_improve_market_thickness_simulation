@@ -1,5 +1,5 @@
 # Simulation Results
-This folder contains simulation outputs of [cold_start_simulation.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/cold_start_simulation.ipynb). The outputs are exported as the numpy one dimensional array data type, where each component represents one replication. More specifically, in each independent replication $i$, we resample all ads with new bids and CTRs and then run all experiments to output estimators in the $i$-th component of the correponding array.
+This folder contains simulation outputs of [cold_start_simulation.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/cold_start_simulation.ipynb). The outputs are exported as the numpy one-dimensional array data type, where each component represents one replication. More specifically, in each independent replication *i*, we resample all ads with new bids and CTRs and then run all experiments to output estimators in the *i*-th component of the corresponding array.
 
 
 ## Outputs
