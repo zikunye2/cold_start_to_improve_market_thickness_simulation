@@ -1,6 +1,6 @@
 # Simulation System for Cold Start in Advertising
 
-We provide the Python code of the simulation system built in [Ye et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786). See Appendix D.1 of the paper for details of the simulation system.
+We provide the Python code of the simulation system built in [Ye et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786). See Appendix D.1 of the paper for details of the simulation system. Please contact the authors of [Ye et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786) if you have any questions.
 
 
 ## Table of contents
@@ -29,17 +29,19 @@ To run the code of this project, please install [Python 3](https://www.python.or
 * **Module III**: The two-sided experiment design. See Section 5.1 and Appendix D.1 of [Ye et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786) for details.
 * **Module IV**: Resampling the outcomes for hypothesis testing.
 
-To evalute the performance of estimators, we report the following two metrics in experiments:
+To evalute the performance of the estimators constructed from single- or two-sided experiments on an online advertising platform, we consider the following two metrics of interest in the simulation system (see Appendix D.1 of [Ye et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786) for details):
 
-* Cold start success rate
-* Revenue
+* **Cold start success rate**, defined as the proportion of new ads successfully cold started by the algorithm deployed;
+* **Revenue**, total advertising revenue from new and mature ads on the platform.
 
-We replicate different field experiment designs to evalute the effectiveness of our proposed SBL-DMD. The result shows that:
-* Ad-side experiment significantly overestimates the cold start success rate, and cannot evalute the revenue loss
-* UV-side experiment significantly underestimate the cold start success rate, and significantly overestimate the revenue loss
-* Two-side experiment neither significantly overestimate nor underestimate both cold start success rate and revenue loss
+Through the simulation system, we replicate different field experiment designs to evalute the effectiveness of the SBL-DMD algorithm proposed by [Ye et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786). [The results](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/tree/main/simulation_output) show that:
 
-One can also directly change hyperparameters in the code including:
+* The **UV-side experiment design** significantly underestimates the cold start success rate, and significantly overestimates the revenue loss.
+* The **ad-side experiment design** significantly overestimates the cold start success rate.
+* The **two-side experiment** neither overestimates nor underestimates both performance metrics of interest.
+
+Interested readers are also free to change the hyper-parameters in [the code](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/cold_start_simulation.ipynb) of the simulation system, such as:
+
 * Cold start objective function parameters
 * PID related coefficients
 * SBL-DMD initialization, and learning rate
