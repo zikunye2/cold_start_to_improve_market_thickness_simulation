@@ -34,7 +34,7 @@ To evalute the performance of the estimators constructed from single- or two-sid
 * **Cold start success rate**, defined as the proportion of new ads successfully cold started by the algorithm deployed;
 * **Revenue**, total advertising revenue from new and mature ads on the platform.
 
-Through the simulation system, we replicate different field experiment designs to evalute the effectiveness of the SBL-DMD algorithm proposed by [Ye et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786). [The results](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/tree/main/simulation_output) show that:
+Through the simulation system, we replicate different field experiment designs to evalute the effectiveness of the SBL-DMD algorithm proposed by [Ye et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786). The [simulation results](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/tree/main/simulation_output) show that:
 
 * The **UV-side experiment design** significantly underestimates the cold start success rate, and significantly overestimates the revenue loss.
 * The **ad-side experiment design** significantly overestimates the cold start success rate.
@@ -47,8 +47,11 @@ Interested readers are also free to change the hyper-parameters in [the code](ht
 * The coefficients of the PID-controller.
 * The initialized dual variables and learning rate of the SBL-DMD algorithm.
 * The sampling rate of each experiment.
-* For other more fundamental settings including auction mechanisms, CTR predicting models, other cold start algorithms and experiment designs, and long-term behavior of advertisers, one needs to change codes correspondingly 
+* The auction mechanism (first-price or second-price). 
+* The billing option (pay-by-impression, pay-by-click, pay-by-action, etc.)
+* The ground-truth CTR model.
+* The machine learning oracle for predicting CTR.
 
 ## Reference
-Ye, Zikun and Zhang, Dennis and Zhang, Heng and Zhang, Renyu and Chen, Xin and Xu, Zhiwei. 2021. Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments. Available at SSRN: https://ssrn.com/abstract=3702786 or http://dx.doi.org/10.2139/ssrn.3702786.
+Ye, Zikun, Dennis Zhang, Heng Zhang, Renyu Zhang, Xin Chen, and Zhiwei Xu. 2021. Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments. Available at SSRN: https://ssrn.com/abstract=3702786 or http://dx.doi.org/10.2139/ssrn.3702786.
 
