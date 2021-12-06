@@ -20,3 +20,16 @@ Below we summarize the simulation results of the [simulation system](https://git
 * [estimator_rev_uv.npy](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/tree/main/simulation_output/estimator_rev_uv.npy): The unbiased estimate of the relative effective size on revenue produced by the UV-side experiment.
 
 * [estimator_rev_two.npy](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/tree/main/simulation_output/estimator_rev_two.npy): The unbiased estimate of the relative effective size on revenue produced by the two-sided experiment.
+
+## Insights
+
+Our simulation results deliver the following important insights regarding the effectiveness of the single- and two-sided experiments considered by [Ye et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786).
+
+* The **UV-side experiment design** significantly underestimates the cold start success rate, and significantly overestimates the revenue loss.
+
+* The **ad-side experiment design** significantly overestimates the cold start success rate.
+
+* The **two-side experiment** neither overestimates nor underestimates both performance metrics of interest.
+
+## Reference
+Ye, Zikun, Dennis Zhang, Heng Zhang, Renyu Zhang, Xin Chen, and Zhiwei Xu. 2021. Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments. Available at SSRN: https://ssrn.com/abstract=3702786 or http://dx.doi.org/10.2139/ssrn.3702786.
