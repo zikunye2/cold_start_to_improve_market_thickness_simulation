@@ -16,7 +16,7 @@ This project contains the code (as Jupyter Notebooks) and data inputs of the sim
 <a id='files'></a>
 ## Files
 * [cold_start_simulation.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/cold_start_simulation.ipynb): The main simulation code. 
-* [ctr_bid_data.npy](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/ctr_bid_data.npy): The sampled data of click-through rates (CTR) and bid prices, 300 observations in total.
+* [ctr_bid_data.npy](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/ctr_bid_data.npy): The sampled data of click-through rates (CTR) and bid prices (to protect data security, these quantities are re-scaled by a random multiplier), 300 observations in total.
 * [simulation_output](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/tree/main/simulation_output): The simulation results.
 
 <a id='simulation-details'></a>	
