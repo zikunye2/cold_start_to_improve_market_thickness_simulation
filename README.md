@@ -40,12 +40,13 @@ Through the simulation system, we replicate different field experiment designs t
 * The **ad-side experiment design** significantly overestimates the cold start success rate.
 * The **two-side experiment** neither overestimates nor underestimates both performance metrics of interest.
 
-Interested readers are also free to change the hyper-parameters in [the code](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/cold_start_simulation.ipynb) of the simulation system, such as:
+Interested readers are also free to change the hyper-parameters in [the code](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/cold_start_simulation.ipynb) of the simulation system, such as (see [Ye et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786) for the definition and interpretation of each parameter):
 
-* Cold start objective function parameters
-* PID related coefficients
-* SBL-DMD initialization, and learning rate
-* Sampling rates of all experiments
+* The cold start success threshold.
+* The cold start reward of each ad.
+* The coefficients of the PID-controller.
+* The initialized dual variables and learning rate of the SBL-DMD algorithm.
+* The sampling rate of each experiment.
 * For other more fundamental settings including auction mechanisms, CTR predicting models, other cold start algorithms and experiment designs, and long-term behavior of advertisers, one needs to change codes correspondingly 
 
 ## Reference
