@@ -1,6 +1,6 @@
 # Simulation System for Cold Start in Advertising
 
-We provide the Python code of the simulation system built in [Ye et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786). See Appendix D.1 of the paper for details of the simulation system. Please contact the authors of [Ye et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786) if you have any questions.
+We provide the Python code of the simulation system built in [Ye et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786). See Appendix D.1 of the paper for details of the simulation system. Please contact the authors of [Ye et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786) if you have any questions or suggestions.
 
 
 ## Table of contents
