@@ -23,7 +23,7 @@ Below we summarize the simulation results of the [simulation system](https://git
 
 ## Insights
 
-Our simulation results deliver the following important insights regarding the effectiveness of the single- and two-sided experiments considered by [Ye et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786).
+Our simulation results deliver the following important insights regarding the effectiveness of the single- and two-sided experiments considered by [Ye et al. (2022)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786).
 
 * The **UV-side experiment design** significantly underestimates the cold start success rate, and significantly overestimates the revenue loss.
 
@@ -32,4 +32,4 @@ Our simulation results deliver the following important insights regarding the ef
 * The **two-side experiment** neither overestimates nor underestimates both performance metrics of interest.
 
 ## Reference
-Ye, Zikun, Dennis Zhang, Heng Zhang, Renyu Zhang, Xin Chen, and Zhiwei Xu. 2021. Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments. Available at SSRN: https://ssrn.com/abstract=3702786 or http://dx.doi.org/10.2139/ssrn.3702786.
+Ye, Zikun, Dennis Zhang, Heng Zhang, Renyu Zhang, Xin Chen, and Zhiwei Xu. 2022. Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments. *Management Science*, forthcoming. Available at SSRN: https://ssrn.com/abstract=3702786 or http://dx.doi.org/10.2139/ssrn.3702786.
