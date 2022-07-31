@@ -23,12 +23,13 @@ This empirical part contains the code (as Jupyter Notebooks) and data inputs to 
 
 * [randomization_check_data_block.csv](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/randomization_check_data_block.csv) This dataset is used for randomization check and constains ad performance data before the experiments. Each row records the basic information ('target_cost','cost_total','cvt_cnt','auto_cpa_bid','target_bid','imp','click'), aggregated at day level ('p_date') of a specific ad ('unit_id') with the field ('unit_tag') indicating whether the ad is in the treatment group or not.
 
-* [exp_short_term_results.csv](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/exp_short_term_results.csv) This dataset contains the ad performance data during the experiment. Each row records the basic performance information aggregated at hour level ('p_date','p_hourmin') of a specific ad ('unit_id') with assigned conditions ('exp_tag','unit_tag').
+* [exp_short_term_results.csv](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/exp_short_term_results.csv) This dataset contains the ad performance data during the experiment. Each row records the basic performance information aggregated at hour level ('p_date','p_hourmin') of a specific ad ('unit_id') with the assigned treatment conditions ('exp_tag','unit_tag').
 
-* [exp_cost_results.csv](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/exp_cost_results.csv) This dataset contains the revenue performance aggregated at hour level during the experiment.
+* [exp_cost_results.csv](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/exp_cost_results.csv) This dataset contains the revenue performance aggregated at an hourly level during the experiment.
 
 <a id='instr'></a>
-## Instruction to produce figures, tables, results
+## Instruction to Reproduce the Empirical Analysis
+
 * [Figure 1 Retention Rate] can be produced by the Block-[Figure 1 with observational data] in [empirical_analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb)
 * [Table 2 The Short-Term Effects of oSBL] can be produced by Block-[Section 6.1 Short-Term Performance of Our oSBL Algorithm] in [empirical analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb)
 * [Table 3 The Long-Term Effects of oSBL] and Block-[Figure 6 Effect of oSBL on Market Thickness] can be produced by [Section 6.2 Long-term effects of oSBL] in [empirical analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb)
