@@ -1,3 +1,6 @@
+In this repository, we open source the code accompanying the empirical and simulation analyses of [Ye et al. (2022)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786).
+
+
 # Empirical Analysis
 
 ## Table of contents of empirical analysis
