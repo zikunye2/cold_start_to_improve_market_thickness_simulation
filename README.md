@@ -41,7 +41,8 @@ This empirical part contains the code (as Jupyter Notebooks) and data inputs to 
 
 
 <a id='dic-data'></a>	
-## Dictionary of datasets
+## Data Dictionary
+
 | Column        | Meaning                            |
 |---------------|------------------------------------|
 | imp_id        | impression ID                      |
