@@ -1,6 +1,6 @@
 # Empirical Analysis
 
-## Table of contents
+## Table of contents of empirical analysis
 * [General Info](#general-info-emp)
 * [Files](#files-emp)
 * [Instruction to produce figures, tables, results](#instr)
@@ -9,7 +9,7 @@
 
 <a id='general-info-emp'></a>
 ## General Info 
-xxxx
+This empirical part contains the code (as Jupyter Notebooks) and data inputs to produce all figures, tables, and results in [Ye et al. (2022)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786). 
 
 
 <a id='files-emp'></a>
@@ -64,7 +64,7 @@ xxxx
 We provide the Python code of the simulation system built in [Ye et al. (2022)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786). See Appendix D.1 of the paper for details of the simulation system. Please contact the authors of [Ye et al. (2022)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786) if you have any questions or suggestions.
 
 
-## Table of contents
+## Table of contents of simulation
 * [General Info](#general-info)
 * [Files](#files)
 * [Simulation Details](#simulation-details)
@@ -72,7 +72,7 @@ We provide the Python code of the simulation system built in [Ye et al. (2022)](
 
 <a id='general-info'></a>
 ## General Info 
-This project contains the code (as Jupyter Notebooks) and data inputs of the simulation system of the paper [Ye et al. (2022)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786). The goal of releasing the code and data is to help interested scholars get deeper understanding on the operational details of the online advertising system, and the implementation of the single- and two-sided experiments studied in [Ye et al. (2022)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786).
+This simulation part contains the code (as Jupyter Notebooks) and data inputs of the simulation system of the paper [Ye et al. (2022)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786). The goal of releasing the code and data is to help interested scholars get deeper understanding on the operational details of the online advertising system, and the implementation of the single- and two-sided experiments studied in [Ye et al. (2022)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786).
 
 <a id='files'></a>
 ## Files
@@ -115,5 +115,6 @@ Interested readers are also free to change the hyper-parameters in [the code](ht
 
 ## Reference
 Ye, Zikun, Dennis Zhang, Heng Zhang, Renyu Zhang, Xin Chen, and Zhiwei Xu. 2022. Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments. *Management Science*, forthcoming. Available at SSRN: https://ssrn.com/abstract=3702786 or http://dx.doi.org/10.2139/ssrn.3702786.
+
 
 
