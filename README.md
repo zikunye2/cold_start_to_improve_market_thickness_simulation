@@ -7,7 +7,7 @@ In this repository, we open source the code accompanying the empirical and simul
 * [General Info](#general-info-emp)
 * [Files](#files-emp)
 * [Instruction to produce figures, tables, results](#instr)
-* [Dictionary of datasets](#dic-data)
+* [Data Dictionary](#dic-data)
 
 
 <a id='general-info-emp'></a>
