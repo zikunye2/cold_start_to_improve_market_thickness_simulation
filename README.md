@@ -40,7 +40,7 @@ This empirical part contains the code (as Jupyter Notebooks) and data inputs to 
 <a id='dic-data'></a>	
 ## Data Dictionary
 
-| Column        | Meaning                            |
+| Column Name   | Meaning                            |
 |---------------|------------------------------------|
 | imp_id        | impression ID                      |
 | unit_id       | ad ID                              |
@@ -54,7 +54,7 @@ This empirical part contains the code (as Jupyter Notebooks) and data inputs to 
 | click         | # of clicks                        |
 | imp           | # of impressions                   |
 | auto_cpa_bid  | real-time bid                      |
-| target_bid    | bid set by advertisers             |
+| target_bid    | bid set by the advertiser          |
 | cost_total    | real cost of ads                   |
 | target_cost   | expected cost of ads               |
 
