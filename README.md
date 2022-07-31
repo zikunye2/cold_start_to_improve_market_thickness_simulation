@@ -12,7 +12,7 @@ In this repository, we open source the code accompanying the empirical and simul
 
 <a id='general-info-emp'></a>
 ## General Info 
-This empirical part contains the code (as Jupyter Notebooks) and data inputs to produce all figures, tables, and results in [Ye et al. (2022)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786). To protect the sensitive data from our industry collaborator, the files provided in the Empirical Analysis section contain synthetic data only. 
+This empirical part contains the code (as Jupyter Notebooks) and data inputs to produce all figures, tables, and results in [Ye et al. (2022)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786). To protect the sensitive data from our industry collaborator, the files provided in the Empirical Analysis section contain synthetic data only. The exactly replicate our empirical results, one needs to collaborate with an online advertising platform, deploy our proposed oSBL algorithm, run two-sided experiments as described in the paper, and access the proprietary data from the platform.
 
 
 <a id='files-emp'></a>
@@ -28,18 +28,14 @@ This empirical part contains the code (as Jupyter Notebooks) and data inputs to 
 * [exp_cost_results.csv](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/exp_cost_results.csv) This dataset contains the revenue performance aggregated at an hourly level during the experiment.
 
 <a id='instr'></a>
-## Instruction to Reproduce the Empirical Analysis
+## Instruction to Produce the Empirical Analysis
 
-* [**Figure 1: Retention Rate**] can be produced by the Block-[Figure 1 with observational data] in [empirical_analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb)
-* [**Table 2: The Short-Term Effects of oSBL**] can be produced by Block-[Section 6.1 Short-Term Performance of Our oSBL Algorithm] in [empirical analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb)
-* [**Table 3: The Long-Term Effects of oSBL**] and Block-[Figure 6 Effect of oSBL on Market Thickness] can be produced by [Section 6.2 Long-term effects of oSBL] in [empirical analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb)
-* [**Figure 7: Global Treatment Effect of oSBL on Advertising Revenue**] can be produced by Block-[Section 6.3 Global Treatment Effect of Our oSBL Algorithm on Advertising Revenue] in [empirical analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb)
-* [**Table 6: Randomization Check of the Experiment**] can be produced by Block-[Section 5 Randomization check of field experiments] in [empirical analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb)
-* [**Figures 9, 10, 11**] can be produced by Block-[Section 6.3 Global Treatment Effect of Our oSBL Algorithm on Advertising Revenue] in [empirical analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb)
-
-
-
-
+* [**Figure 1: Retention Rate**] can be produced by the Code Block-[Figure 1 with observational data] in [empirical_analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb).
+* [**Table 2: The Short-Term Effects of oSBL**] can be produced by the Code Block-[Section 6.1 Short-Term Performance of Our oSBL Algorithm] in [empirical analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb).
+* [**Table 3: The Long-Term Effects of oSBL**] and [**Figure 6: Effect of oSBL on Market Thickness**] can be produced by the Code Block-[Section 6.2 Long-term effects of oSBL] in [empirical analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb).
+* [**Figure 7: Global Treatment Effect of oSBL on Advertising Revenue**] can be produced by the Code Block-[Section 6.3 Global Treatment Effect of Our oSBL Algorithm on Advertising Revenue] in [empirical analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb).
+* [**Table 6: Randomization Check of the Experiment**] can be produced by the Code Block-[Section 5 Randomization check of field experiments] in [empirical analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb).
+* [**Figures 9, 10, 11**] can be produced by the Code Block-[Section 6.3 Global Treatment Effect of Our oSBL Algorithm on Advertising Revenue] in [empirical analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb).
 
 <a id='dic-data'></a>	
 ## Data Dictionary
