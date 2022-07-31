@@ -12,7 +12,7 @@ In this repository, we open source the code accompanying the empirical and simul
 
 <a id='general-info-emp'></a>
 ## General Info 
-This empirical part contains the code (as Jupyter Notebooks) and data inputs to produce all figures, tables, and results in [Ye et al. (2022)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786). To protect the sensitive data from our industry collaborator, the files provided in this section contain synthetic data only. 
+This empirical part contains the code (as Jupyter Notebooks) and data inputs to produce all figures, tables, and results in [Ye et al. (2022)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786). To protect the sensitive data from our industry collaborator, the files provided in the Empirical Analysis section contain synthetic data only. 
 
 
 <a id='files-emp'></a>
