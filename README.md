@@ -1,3 +1,64 @@
+# Empirical Analysis
+
+## Table of contents
+* [General Info](#general-info-emp)
+* [Files](#files-emp)
+* [Instruction to produce figures, tables, results](#instr)
+* [Dictionary of datasets](#dic-data)
+
+
+<a id='general-info-emp'></a>
+## General Info 
+xxxx
+
+
+<a id='files-emp'></a>
+## Files
+* [empirical_analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb): The main empirical analysis code. 
+
+* [retention_data.csv'](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/retention_data.csv) This dataset contains observational data before the experiment. Each row records the basic information ('imp', 'click_cnt', 'cvr_cnt', 'target_cost', 'cost_total', 'target_bid'), aggregated at day level ('p_date') of a specific ad (unit_id).
+
+* [randomization_check_data_block.csv](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/randomization_check_data_block.csv) This dataset is used for randomization check and constains ad performance data before the experiments. Each row records the basic information ('target_cost','cost_total','cvt_cnt','auto_cpa_bid','target_bid','imp','click'), aggregated at day level ('p_date') of a specific ad ('unit_id') with the field ('unit_tag') indicating whether the ad is in the treatment group or not.
+
+* [exp_short_term_results.csv](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/exp_short_term_results.csv) This dataset contains the ad performance data during the experiment. Each row records the basic performance information aggregated at hour level ('p_date','p_hourmin') of a specific ad ('unit_id') with assigned conditions ('exp_tag','unit_tag').
+
+* [exp_cost_results.csv](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/exp_cost_results.csv) This dataset contains the revenue performance aggregated at hour level during the experiment.
+
+<a id='instr'></a>
+## Instruction to produce figures, tables, results
+* [Figure 1 Retention Rate] can be produced by the Block-[Figure 1 with observational data] in code [empirical_analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb)
+* [Table 2 The Short-Term Effects of oSBL] can be produced by Block-[Section 6.1 Short-Term Performance of Our oSBL Algorithm] in code [empirical analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb)
+* [Table 3 The Long-Term Effects of oSBL] and Block-[Figure 6 Effect of oSBL on Market Thickness] can be produced by [Section 6.2 Long-term effects of oSBL] in code [empirical analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb)
+* [Figure 7 Global Treatment Effect of oSBL on Advertising Revenue] can be produced by Block-[Section 6.3 Global Treatment Effect of Our oSBL Algorithm on Advertising Revenue] in code [empirical analysis.ipynb]
+* [Table 6 Randomization Check of the Experiment] can be produced by Block-[Section 5 Randomization check of field experiments] in code-[empirical analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb)
+* [Figure 9, 10, 11] can be produced by Block-[Section 6.3 Global Treatment Effect of Our oSBL Algorithm on Advertising Revenue] in code [empirical analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb)
+
+
+
+
+
+<a id='dic-data'></a>	
+## Dictionary of datasets
+| Column        | Meaning                            |
+|---------------|------------------------------------|
+| imp_id        | impression ID                      |
+| unit_id       | ad ID                              |
+| unit_tag      | treatment condition of ad          |
+| exp_tag       | treatment condition of impression  |
+| p_date        | date                               |
+| p_hourmin     | hour                               |
+| pxtr          | predicted ctr*cvr                  |
+| retention_cnt | # of retention days                |
+| cvt_cnt       | # of conversions during cold start |
+| click         | # of clicks                        |
+| imp           | # of impressions                   |
+| auto_cpa_bid  | real-time bid                      |
+| target_bid    | bid set by advertisers             |
+| cost_total    | real cost of ads                   |
+| target_cost   | expected cost of ads               |
+
+
+
 # Simulation System for Cold Start and Experimentation in Online Advertising
 
 We provide the Python code of the simulation system built in [Ye et al. (2022)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786). See Appendix D.1 of the paper for details of the simulation system. Please contact the authors of [Ye et al. (2022)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786) if you have any questions or suggestions.
@@ -54,4 +115,5 @@ Interested readers are also free to change the hyper-parameters in [the code](ht
 
 ## Reference
 Ye, Zikun, Dennis Zhang, Heng Zhang, Renyu Zhang, Xin Chen, and Zhiwei Xu. 2022. Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments. *Management Science*, forthcoming. Available at SSRN: https://ssrn.com/abstract=3702786 or http://dx.doi.org/10.2139/ssrn.3702786.
+
 
