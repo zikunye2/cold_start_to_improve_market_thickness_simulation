@@ -17,9 +17,9 @@ This empirical part contains the code (as Jupyter Notebooks) and data inputs to 
 
 <a id='files-emp'></a>
 ## Files
-* [empirical_analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb): The main empirical analysis code. 
+* [empirical_analysis.ipynb](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/empirical_analysis.ipynb): This is the code for the empirical analysis in [Ye et al. (2022)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786). 
 
-* [retention_data.csv'](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/retention_data.csv) This dataset contains observational data before the experiment. Each row records the basic information ('imp', 'click_cnt', 'cvr_cnt', 'target_cost', 'cost_total', 'target_bid'), aggregated at day level ('p_date') of a specific ad (unit_id).
+* [retention_data.csv'](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/retention_data.csv) This dataset contains the observational data before the experiment. Each row records the basic information ('imp', 'click_cnt', 'cvr_cnt', 'target_cost', 'cost_total', 'target_bid'), aggregated at day level ('p_date') of a specific ad ('unit_id').
 
 * [randomization_check_data_block.csv](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation/blob/main/randomization_check_data_block.csv) This dataset is used for randomization check and constains ad performance data before the experiments. Each row records the basic information ('target_cost','cost_total','cvt_cnt','auto_cpa_bid','target_bid','imp','click'), aggregated at day level ('p_date') of a specific ad ('unit_id') with the field ('unit_tag') indicating whether the ad is in the treatment group or not.
 
