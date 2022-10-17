@@ -115,7 +115,7 @@ Interested readers are also free to change the hyper-parameters in [the code](ht
 * The machine learning oracle for predicting CTR.
 
 ## Reference
-Ye, Zikun, Dennis Zhang, Heng Zhang, Renyu Zhang, Xin Chen, and Zhiwei Xu. 2022. Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments. *Management Science*, forthcoming. Available at SSRN: https://ssrn.com/abstract=3702786 or http://dx.doi.org/10.2139/ssrn.3702786.
+Ye, Zikun, Dennis Zhang, Heng Zhang, Renyu Zhang, Xin Chen, and Zhiwei Xu. 2022. Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments. *Management Science*, forthcoming. Available at: https://ssrn.com/abstract=3702786 and https://pubsonline.informs.org/doi/full/10.1287/mnsc.2022.4550.
 
 
 
